@@ -56,7 +56,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Double addDoubles(double baseValue, double difference) {
-        return null;
+        return baseValue + difference;
     }
 
     /**
@@ -65,7 +65,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Integer subtractDoubles(int baseValue, int difference) {
-        return null;
+        return baseValue - difference;
     }
 
     /**
@@ -74,7 +74,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Long subtractLongs(long baseValue, long difference) {
-        return null;
+        return baseValue - difference;
     }
 
     /**
