@@ -11,7 +11,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Integer addIntegers(int baseValue, int difference) {
-        return null;
+        return baseValue + difference;
     }
 
     /**
