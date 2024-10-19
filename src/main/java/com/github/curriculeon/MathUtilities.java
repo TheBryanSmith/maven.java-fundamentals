@@ -38,7 +38,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Byte addBytes(byte baseValue, byte difference) {
-        return null;
+        return (byte)(baseValue + difference);
     }
 
     /**
@@ -47,7 +47,7 @@ public class MathUtilities {
      * @return sum of `baseValue` and `difference`
      */
     public Float addFloats(float baseValue, float difference) {
-        return null;
+        return baseValue + difference;
     }
 
     /**
