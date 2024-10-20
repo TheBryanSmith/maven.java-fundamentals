@@ -156,7 +156,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Float divideFloats(float dividend, float divisor) {
-        return null;
+        return dividend / divisor;
     }
 
     /**
@@ -165,7 +165,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Double divideDoubles(double dividend, double divisor) {
-        return null;
+        return dividend / divisor;
     }
 
 
@@ -175,7 +175,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Integer multiplyIntegers(int multiplicand, int multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 
     /**
@@ -184,7 +184,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Long multiplyLongs(long multiplicand, long multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 
     /**
@@ -193,7 +193,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Short multiplyShorts(short multiplicand, short multiplier) {
-        return null;
+        return (short) (multiplicand * multiplier);
     }
     /**
      * @param multiplicand value to be multiplied
@@ -201,7 +201,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Byte multiplyBytes(byte multiplicand, byte multiplier) {
-        return null;
+        return (byte) (multiplicand * multiplier);
     }
 
     /**
@@ -210,7 +210,7 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Float multiplyFloats(float multiplicand, float multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 
     /**
@@ -219,6 +219,6 @@ public class MathUtilities {
      * @return product of `multiplicand` by `multiplier`
      */
     public Double multiplyDoubles(double multiplicand, double multiplier) {
-        return null;
+        return multiplicand * multiplier;
     }
 }
