@@ -92,7 +92,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Byte subtractBytes(byte baseValue, byte difference) {
-        return null;
+        return (byte) (baseValue - difference);
     }
 
     /**
@@ -110,7 +110,7 @@ public class MathUtilities {
      * @return difference between `baseValue` and `difference`
      */
     public Double subtractDoubles(double baseValue, double difference) {
-        return null;
+        return baseValue - difference;
     }
 
 
@@ -120,7 +120,7 @@ public class MathUtilities {
      * @return division of `dividend` by `divisor
      */
     public Integer divideIntegers(int dividend, int divisor) {
-        return null;
+        return dividend / divisor;
     }
 
     /**
