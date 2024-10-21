@@ -68,7 +68,7 @@ public class StringUtilities {
      * @return the first sequence of characters
      */
     public String getFirstWord(String spaceDelimitedString) {
-        return null ;
+        return spaceDelimitedString.substring(0,spaceDelimitedString.indexOf(" "));
     }
 
     /**
@@ -76,7 +76,7 @@ public class StringUtilities {
      * @return the second word of a string delimited by spaces.
      */
     public String getSecondWord(String spaceDelimitedString) {
-        return null;
+        return spaceDelimitedString.substring(spaceDelimitedString.indexOf(" ") + 1);
     }
 
     /**
